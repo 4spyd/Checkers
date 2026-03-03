@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Страница-1" id="x6eAAl6wSC0OQoF5Unjw">
+    <mxGraphModel dx="401" dy="268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FSagMVrlpbUNZbyfabu4-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=default;align=center;verticalAlign=middle;rounded=1;labelBorderColor=none;perimeterSpacing=0;arcSize=24;" value="Класс Шашкек" vertex="1">
+          <mxGeometry height="30" width="140" x="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSagMVrlpbUNZbyfabu4-14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;glass=0;fillColor=default;swimlaneFillColor=default;" value="Параметры" vertex="1">
+          <mxGeometry height="130" width="100" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FSagMVrlpbUNZbyfabu4-15" parent="FSagMVrlpbUNZbyfabu4-14" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Цвет" vertex="1">
+          <mxGeometry height="20" width="100" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSagMVrlpbUNZbyfabu4-16" parent="FSagMVrlpbUNZbyfabu4-14" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Позиция" vertex="1">
+          <mxGeometry height="20" width="100" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FSagMVrlpbUNZbyfabu4-17" parent="FSagMVrlpbUNZbyfabu4-14" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Радиус" vertex="1">
+          <mxGeometry height="20" width="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FSagMVrlpbUNZbyfabu4-23" parent="FSagMVrlpbUNZbyfabu4-14" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Позиция на доске" vertex="1">
+          <mxGeometry height="40" width="100" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FSagMVrlpbUNZbyfabu4-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;glass=0;shadow=0;fillStyle=auto;fillColor=default;swimlaneFillColor=default;" value="Функции" vertex="1">
+          <mxGeometry height="230" width="120" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FSagMVrlpbUNZbyfabu4-19" parent="FSagMVrlpbUNZbyfabu4-18" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;GetPosition&lt;/font&gt; передаёт позицию шашки" vertex="1">
+          <mxGeometry height="50" width="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FSagMVrlpbUNZbyfabu4-22" parent="FSagMVrlpbUNZbyfabu4-18" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;GetCell&lt;/font&gt;&lt;div&gt;Передаёт позицию шашки на доске&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FSagMVrlpbUNZbyfabu4-24" parent="FSagMVrlpbUNZbyfabu4-18" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;GetColor&lt;/font&gt;&lt;div&gt;Передаёт Цвет шашки&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FSagMVrlpbUNZbyfabu4-25" parent="FSagMVrlpbUNZbyfabu4-18" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font color=&quot;#ff0000&quot;&gt;Update&lt;/font&gt;&lt;br&gt;&lt;div&gt;Обновляет класс CircleShape&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="120" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
